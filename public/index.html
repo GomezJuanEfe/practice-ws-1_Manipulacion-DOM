@@ -47,14 +47,11 @@
           Este proyecto busca poner en práctica todos los conceptos visto en el curso de Manipulación del DOM de Platzi.
         </p>
       </div>
-      <div class="mt-10 grid grid-cols-2 gap-2" id="appNode">
-        <div class="md:flex bg-yellow-100 rounded-lg p-6 hover:bg-gray-300" id="card" >
-            <img id="img" class="h-16 w-16 md:h-24 md:w-24 rounded-full mx-auto md:mx-0 md:mr-6" src="https://rickandmortyapi.com/api/character/avatar/1.jpeg" alt="">
-          <div class="text-center md:text-left" id="info">
-            <h3 id="name">Nombre</h3>
-            <p id="origin">Origen: tierra</p>
-          </div>
-        </div>
+      <div class="text-center mt-10">
+        <label for="numCharacters" class="text-center">Ingresa el número de personajes de Rick n' Morty que quieres agregar: <input type="number" id="numCharacters" class="w-10 text-center border-b-2 border-black"></label> <br>
+        <button id="addNumCharacterbttn" class="mt-10 py-2 px-5 rounded bg-indigo-600 text-white font-bold">Ingresar</button>
+      </div>
+      <div id="appNode" class="mt-10 grid grid-cols-2 gap-2">
       </div>
     </div>
 
