@@ -2,9 +2,6 @@ const API = 'https://rickandmortyapi.com/api/character';
 
 const addNumCharacterbttn = document.getElementById('addNumCharacterbttn');
 
-// Construir función XHR
-// Añadir listener
-// Input
 
 const fetchData = (url_api, callback) => {
   const xhr = new XMLHttpRequest;
