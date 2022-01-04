@@ -1,4 +1,5 @@
 {
+  "homepage": "https://gomezjuanefe.github.io/practice-ws-1_Manipulacion-DOM/",
   "scripts": {
     "start": "snowpack dev",
     "build": "snowpack build",
